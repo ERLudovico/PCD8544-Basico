@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "PCD8544", "PCD8544\PCD8544.cppproj", "{79BB90B8-BBBA-4D43-ACA1-DAE48D7A16D5}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Blink", "C:\arduino\1.6.0\examples\01.Basics\Blink\Blink.cppproj", "{07B459B4-8D76-4638-BC6D-A459BA2D616B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BB90B8-BBBA-4D43-ACA1-DAE48D7A16D5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{79BB90B8-BBBA-4D43-ACA1-DAE48D7A16D5}.Debug|AVR.Build.0 = Debug|AVR
+		{79BB90B8-BBBA-4D43-ACA1-DAE48D7A16D5}.Release|AVR.ActiveCfg = Release|AVR
+		{79BB90B8-BBBA-4D43-ACA1-DAE48D7A16D5}.Release|AVR.Build.0 = Release|AVR
+		{07B459B4-8D76-4638-BC6D-A459BA2D616B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{07B459B4-8D76-4638-BC6D-A459BA2D616B}.Debug|AVR.Build.0 = Debug|AVR
+		{07B459B4-8D76-4638-BC6D-A459BA2D616B}.Release|AVR.ActiveCfg = Release|AVR
+		{07B459B4-8D76-4638-BC6D-A459BA2D616B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
