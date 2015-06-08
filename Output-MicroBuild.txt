@@ -1,0 +1,115 @@
+﻿This build would be faster if you upgraded to Visual Micro Gold Edition + USB debugger http://www.visualmicro.com 
+Please wait ...
+Compiling 'PCD8544' for 'Arduino Uno'
+Build folder: file:///C:/Users/eludovic/AppData/Local/V.Micro/Arduino/Builds/PCD8544/uno
+Summary: Header=1 Prototypes=3 Imports=3
+Additional Defines: 
+Architecture Tools: C:\arduino\1.6.0\hardware\tools\avr/bin/
+Sketchbook: file:///E:/DADOS%20EXT/Programacao/Projeto%20Atmel
+Core Include Paths
+Include Path 'C:\arduino\1.6.0\hardware\arduino\avr\cores\arduino'
+Include Path 'C:\arduino\1.6.0\hardware\arduino\avr\variants\standard'
+Library Include Paths (3)
+Include Path 'E:\DADOS EXT\Programacao\Projeto Atmel\libraries\Adafruit-GFX-Library-master'
+Include Path 'E:\DADOS EXT\Programacao\Projeto Atmel\libraries\Adafruit-PCD8544-Nokia-5110-LCD-library-master'
+Include Path 'C:\arduino\1.6.0\hardware\arduino\avr\libraries\SPI'
+Platform Libraries Root Include Paths
+Include Path 'C:\arduino\1.6.0\libraries'
+Include Path 'C:\arduino\1.6.0\hardware\arduino\avr\libraries'
+Include Path 'C:\Program Files (x86)\Atmel\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers'
+Include Path 'E:\DADOS EXT\Programacao\Projeto Atmel\libraries'
+"C:\arduino\1.6.0\hardware\tools\avr/bin/avr-g++" -c -g -Os -Wall -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=164 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -I"C:\arduino\1.6.0\hardware\arduino\avr\cores\arduino" -I"C:\arduino\1.6.0\hardware\arduino\avr\variants\standard" -I"E:\DADOS EXT\Programacao\Projeto Atmel\libraries\Adafruit-GFX-Library-master" -I"E:\DADOS EXT\Programacao\Projeto Atmel\libraries\Adafruit-PCD8544-Nokia-5110-LCD-library-master" -I"C:\arduino\1.6.0\hardware\arduino\avr\libraries\SPI" -I"C:\arduino\1.6.0\libraries" -I"C:\arduino\1.6.0\hardware\arduino\avr\libraries" -I"C:\Program Files (x86)\Atmel\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" -I"E:\DADOS EXT\Programacao\Projeto Atmel\libraries" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\MyClass.cpp" -o "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\MyClass.cpp.o"
+"C:\arduino\1.6.0\hardware\tools\avr/bin/avr-g++" -c -g -Os -Wall -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=164 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -I"C:\arduino\1.6.0\hardware\arduino\avr\cores\arduino" -I"C:\arduino\1.6.0\hardware\arduino\avr\variants\standard" -I"E:\DADOS EXT\Programacao\Projeto Atmel\libraries\Adafruit-GFX-Library-master" -I"E:\DADOS EXT\Programacao\Projeto Atmel\libraries\Adafruit-PCD8544-Nokia-5110-LCD-library-master" -I"C:\arduino\1.6.0\hardware\arduino\avr\libraries\SPI" -I"C:\arduino\1.6.0\libraries" -I"C:\arduino\1.6.0\hardware\arduino\avr\libraries" -I"C:\Program Files (x86)\Atmel\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" -I"E:\DADOS EXT\Programacao\Projeto Atmel\libraries" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\PCD8544.cpp" -o "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\PCD8544.cpp.o"
+Build Core Paths: C:\arduino\1.6.0\hardware\arduino\avr\cores\arduino
+"C:\arduino\1.6.0\hardware\tools\avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega328p -o "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.elf" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\MyClass.cpp.o" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\PCD8544.cpp.o" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\Adafruit-GFX-Library-master\glcdfont.c.o" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\Adafruit-GFX-Library-master\Adafruit_GFX.cpp.o" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\Adafruit-PCD8544-Nokia-5110-LCD-library-master\Adafruit_PCD8544.cpp.o" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno\SPI\SPI.cpp.o" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/core.a" "-LC:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno" -lm
+"C:\arduino\1.6.0\hardware\tools\avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.elf" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.eep"
+"C:\arduino\1.6.0\hardware\tools\avr/bin/avr-objcopy" -O ihex -R .eeprom "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.elf" "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.hex"
+Binary sketch size: 16.756 bytes (used 52% of a 32.256 byte maximum) (0,56 secs)
+Minimum Memory Usage: 838 bytes (41% of a 2048 byte maximum)
+Uploading to I/O board using 'COM3'
+Uploader started for board Arduino Uno
+Upload method will be: bootloader
+Uploading via Bootloader 
+Flushing the serial port
+C:\arduino\1.6.0\hardware\tools\avr\bin\avrdude "-CC:\arduino\1.6.0\hardware\tools\avr/etc/avrdude.conf" -v -patmega328p -carduino -PCOM3 -b115200 -D "-Uflash:w:C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.hex:i"
+
+avrdude: Version 6.0.1, compiled on Apr 15 2015 at 19:59:58
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2009 Joerg Wunsch
+
+         System wide configuration file is "C:\arduino\1.6.0\hardware\tools\avr/etc/avrdude.conf"
+
+         Using Port                    : COM3
+         Using Programmer              : arduino
+         Overriding Baud Rate          : 115200
+         AVR Part                      : ATmega328P
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PC2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65    20     4    0 no       1024    4      0  3600  3600 0xff 0xff
+           flash         65     6   128    0 yes     32768  128    256  4500  4500 0xff 0xff
+           lfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           hfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           efuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           lock           0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : Arduino
+         Description     : Arduino
+         Hardware Version: 3
+         Firmware Version: 4.4
+         Vtarget         : 0.3 V
+         Varef           : 0.3 V
+         Oscillator      : 28.800 kHz
+         SCK period      : 3.3 us
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e950f
+avrdude: safemode: lfuse reads as 0
+avrdude: safemode: hfuse reads as 0
+avrdude: safemode: efuse reads as 0
+avrdude: reading input file "C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.hex"
+avrdude: writing flash (16756 bytes):
+
+Writing | ################################################## | 100% 2.69s
+
+avrdude: 16756 bytes of flash written
+avrdude: verifying flash memory against C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.hex:
+avrdude: load data flash data from input file C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.hex:
+avrdude: input file C:\Users\eludovic\AppData\Local\V.Micro\Arduino\Builds\PCD8544\uno/PCD8544.hex contains 16756 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 2.16s
+
+avrdude: verifying ...
+avrdude: 16756 bytes of flash verified
+
+avrdude: safemode: lfuse reads as 0
+avrdude: safemode: hfuse reads as 0
+avrdude: safemode: efuse reads as 0
+avrdude: safemode: Fuses OK (H:00, E:00, L:00)
+
+avrdude done.  Thank you.
+
+
+Done uploading
